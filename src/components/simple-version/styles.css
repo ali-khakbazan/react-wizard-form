@@ -1,0 +1,98 @@
+ /* DISPLAYS  */
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+/* COLLORS  */
+
+.text-black{
+    color: #333333;
+}
+
+.text-gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.text-blue{
+    color: #0984e3;
+}
+
+.text-green{
+    color: rgba(105, 188, 103, 1);
+}
+
+
+ /* BORDERS  */
+
+ .border-blue{
+    border: 1px solid #0984e3;
+ }
+
+ /* BACKGROUNDS  */
+
+.bg-green{
+    background-color: rgba(105, 188, 103, 1);
+}
+
+.bg-primary{
+    background-color: #0984e3;
+}
+
+.bg-gray{
+    background-color: rgb(233, 231, 231);
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+ /* OTHERS  */
+
+ .step-bar-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+ }
+
+ .single-step-bar{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    column-gap: 0.5rem;
+ }
+
+ .single-step-bar-number-label{
+    width: 1.6rem;
+    height: 1.6rem;
+    min-width: 1.6rem;
+    min-height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 0.85rem;
+ }
+
+
+ .single-step-bar-title-label{
+    font-size: 0.85rem;
+    white-space: nowrap;
+ }
+
+ .step-bar-border{
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    
+ }
