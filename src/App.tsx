@@ -159,7 +159,12 @@ function App() {
         <div className="flex flex-col items-center py-5">
           <h2 className="text-black/80 font-semibold text-2xl py-3">Links:</h2>
 
-          <a className="text-blue-500 font-semibold" href="https://github.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 font-semibold"
+            href="https://github.com/ali-khakbazan/react-wizard-form"
+          >
             Github Repository
           </a>
         </div>
