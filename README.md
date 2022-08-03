@@ -1,7 +1,5 @@
 # React Wizard Form
 
-#### A simple React Seperated Inputs for all cases
-
 A complete and simple component for creating Multi step forms in React
 
 ## Demo
